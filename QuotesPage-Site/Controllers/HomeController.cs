@@ -2,6 +2,7 @@
 using System;
 using System.Data.SqlClient;
 using System.Web.Mvc;
+using System.Web.UI;
 
 namespace QuotesPage_Site.Controllers
 {
@@ -9,9 +10,16 @@ namespace QuotesPage_Site.Controllers
     {
         private static string _connString = string.Empty;
 
-        public ActionResult Index()
+        [OutputCache(Location = OutputCacheLocation.None, NoStore = true)]
+        [HttpGet]
+        public ViewResult Index()
         {
-            return View(GetQuote());
+            var model = new QuoteModel();
+            model = GetQuote();
+
+            ModelState.Clear();
+
+            return View(model);
         }
 
         public QuoteModel GetQuote()
