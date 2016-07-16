@@ -1,0 +1,9 @@
+QuotesPage-Site/QuotesPage-Site.csproj.user
+QuotesPage-Site/bin
+QuotesPage-Site/obj
+QuotesPage-Site/privateclass.cs
+
+ParseQuotesToDatabase/bin
+ParseQuotesToDatabase/obj
+ParseQuotesToDatabase/ParseQuotesToDatabase.csproj.suo
+ParseQuotesToDatabase/privateclass.cs

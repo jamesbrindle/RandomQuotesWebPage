@@ -1,0 +1,18 @@
+﻿@model QuotesPage_Site.Models.QuoteModel
+
+@{
+    ViewBag.Title = "Quotes";
+}
+
+<script type="text/javascript">
+  setTimeout(function () { location.reload(true); }, 20000);
+</script>
+
+<div style="text-align: center; margin-top: -25px;">
+    <a href="@Url.Action("Index", "Home")"><img src="~/Content/Images/reload.png" /></a><br />
+    <a href="@Url.Action("Index", "Home")" style="font-size: 8pt;">Click for another</a>
+</div>
+
+<div class="centerFlex">
+    @Html.Raw(Model.QuoteText)
+</div>
