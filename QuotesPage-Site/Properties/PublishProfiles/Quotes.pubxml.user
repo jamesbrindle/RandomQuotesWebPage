@@ -100,7 +100,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>11/27/2012 12:00:52</publishTime>
     </File>
     <File Include="bin/QuotesPage-Site.dll">
-      <publishTime>07/16/2016 20:12:04</publishTime>
+      <publishTime>07/17/2016 19:55:45</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>06/18/2015 20:19:46</publishTime>
@@ -268,7 +268,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/16/2016 19:48:54</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>07/17/2016 19:55:42</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>07/16/2016 16:07:45</publishTime>
@@ -277,7 +277,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>07/16/2016 15:51:40</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>07/16/2016 20:12:12</publishTime>
+      <publishTime>07/17/2016 19:55:52</publishTime>
     </File>
   </ItemGroup>
 </Project>
