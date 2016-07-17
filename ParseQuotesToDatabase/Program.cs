@@ -21,7 +21,7 @@ namespace ParseQuotesToDatabase
             _connString = privateclass._connString;
 #endif
 
-            string[] quotes = File.ReadAllLines("Quotes.txt");
+            string[] quotes = File.ReadAllLines("MoreQuotes.txt");
             List<string> quotesList = new List<string>();
 
             foreach (string quote in quotes)
