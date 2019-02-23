@@ -7,3 +7,6 @@ ParseQuotesToDatabase/bin
 ParseQuotesToDatabase/obj
 ParseQuotesToDatabase/ParseQuotesToDatabase.csproj.suo
 ParseQuotesToDatabase/privateclass.cs
+
+Publish
+.vs
