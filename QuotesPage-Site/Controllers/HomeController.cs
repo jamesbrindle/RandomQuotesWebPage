@@ -26,7 +26,7 @@ namespace QuotesPage_Site.Controllers
         {
 
 #if DEBUG
-            _connString = "Data Source=JAMIE-PC;AttachDbFilename=D:\\Sites\\LocalDB\\jb-local-db.mdf;Initial Catalog=JB-Local-DB;Integrated Security=True";
+            _connString = "Data Source=JAMIE-PC\\SQLEXPRESS;AttachDbFilename=D:\\Sites\\LocalDB\\jb-local-db.mdf;Initial Catalog=JB-Local-DB;Integrated Security=True";
 #else
 
             _connString = privateclass._connString;
