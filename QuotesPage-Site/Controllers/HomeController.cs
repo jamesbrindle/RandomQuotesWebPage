@@ -29,7 +29,7 @@ namespace QuotesPage_Site.Controllers
             _connString = "Data Source=JAMIE-PC\\SQLEXPRESS;AttachDbFilename=D:\\Sites\\LocalDB\\jb-local-db.mdf;Initial Catalog=JB-Local-DB;Integrated Security=True";
 #else
 
-            _connString = privateclass._connString;
+            _connString = "Data Source=JAMIE-NAS\\SQLEXPRESS;AttachDbFilename=E:\\Sites\\LocalDB\\jb-local-db.mdf;Initial Catalog=JB-Local-DB;Integrated Security=True";
 #endif
 
             var quote = new QuoteModel
