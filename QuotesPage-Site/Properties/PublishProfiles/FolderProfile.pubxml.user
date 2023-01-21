@@ -6,285 +6,286 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>D:\Repositories\RandomQuotesWebPage\Publish</_PublishTargetUrl>
-    <History>True|2023-01-21T14:38:08.3690500Z;True|2023-01-21T14:32:07.6530228+00:00;True|2023-01-21T14:30:56.8968175+00:00;</History>
+    <_PublishTargetUrl>E:\Repositories\RandomQuotesWebPage\QuotesPage-Site\Publish</_PublishTargetUrl>
+    <History>False|2023-01-21T15:38:20.1007417Z;False|2023-01-21T15:37:55.2738284+00:00;True|2023-01-21T14:38:08.3690500+00:00;True|2023-01-21T14:32:07.6530228+00:00;True|2023-01-21T14:30:56.8968175+00:00;</History>
+    <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
     <File Include="android-chrome-192x192.png">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="apple-touch-icon.png">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="ApplicationInsights.config">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="App_Data/QuotesDB.mdf">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="App_Data/QuotesDB_log.ldf">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.dll">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.pdb">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="bin/ApplicationInsights.config">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:41</publishTime>
     </File>
     <File Include="bin/EntityFramework.SqlServer.dll">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:41</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:41</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.DependencyCollector.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:41</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:41</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:41</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.Web.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:41</publishTime>
     </File>
     <File Include="bin/Microsoft.AI.WindowsServer.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:41</publishTime>
     </File>
     <File Include="bin/Microsoft.ApplicationInsights.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:41</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:41</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:41</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:42</publishTime>
     </File>
     <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:42</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:42</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:42</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:42</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:42</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:42</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.Google.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:43</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:43</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:43</publishTime>
     </File>
     <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:43</publishTime>
     </File>
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:43</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:43</publishTime>
     </File>
     <File Include="bin/Owin.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:43</publishTime>
     </File>
     <File Include="bin/QuotesPage-Site.dll">
-      <publishTime>01/21/2023 14:38:07</publishTime>
+      <publishTime>01/21/2023 16:32:14</publishTime>
     </File>
     <File Include="bin/QuotesPage-Site.pdb">
-      <publishTime>01/21/2023 14:38:07</publishTime>
+      <publishTime>01/21/2023 16:32:14</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:42</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:42</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:42</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:42</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:42</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:42</publishTime>
     </File>
     <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:42</publishTime>
     </File>
     <File Include="bin/roslyn/System.Collections.Immutable.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:42</publishTime>
     </File>
     <File Include="bin/roslyn/System.Reflection.Metadata.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:42</publishTime>
     </File>
     <File Include="bin/roslyn/vbc.exe">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:42</publishTime>
     </File>
     <File Include="bin/roslyn/VBCSCompiler.exe">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:42</publishTime>
     </File>
     <File Include="bin/roslyn/VBCSCompiler.exe.config">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:42</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:42</publishTime>
     </File>
     <File Include="bin/System.Web.Mvc.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:42</publishTime>
     </File>
     <File Include="bin/System.Web.Optimization.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:42</publishTime>
     </File>
     <File Include="bin/System.Web.Razor.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:42</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Deployment.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:42</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:42</publishTime>
     </File>
     <File Include="bin/System.Web.WebPages.Razor.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:42</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
-      <publishTime>07/16/2022 01:50:25</publishTime>
+      <publishTime>01/21/2023 15:27:43</publishTime>
     </File>
     <File Include="browserconfig.xml">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="Content/Images/reload.png">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="favicon-16x16.png">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="favicon-32x32.png">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="favicon.ico">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.svg">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.ttf">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="Global.asax">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="manifest.json">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="mstile-150x150.png">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="packages.config">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="safari-pinned-tab.svg">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="Scripts/ai.0.22.9-build00167.js">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="Scripts/ai.0.22.9-build00167.min.js">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="Scripts/bootstrap.min.js">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="Scripts/jquery-1.10.2.js">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="Scripts/jquery-1.10.2.min.js">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="Scripts/jquery-1.10.2.min.map">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.js">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.min.js">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.unobtrusive.js">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="Scripts/jquery.validate.unobtrusive.min.js">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="Scripts/modernizr-2.6.2.js">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="Scripts/respond.js">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="Scripts/respond.min.js">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="Scripts/_references.js">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="Views/Web.config">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="Views/_ViewStart.cshtml">
-      <publishTime>07/16/2022 01:50:24</publishTime>
+      <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>01/21/2023 14:30:55</publishTime>
+      <publishTime>01/21/2023 16:34:30</publishTime>
     </File>
   </ItemGroup>
 </Project>

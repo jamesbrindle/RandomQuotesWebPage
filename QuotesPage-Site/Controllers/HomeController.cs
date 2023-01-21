@@ -26,10 +26,10 @@ namespace QuotesPage_Site.Controllers
         {
 
 #if DEBUG
-            _connString = "Data Source=JAMIE-PC\\SQLEXPRESS;AttachDbFilename=D:\\Sites\\LocalDB\\jb-local-db.mdf;Initial Catalog=JB-Local-DB;Integrated Security=True";
+            _connString = "Data Source=(localdb)\\SQLEXPRESS;AttachDbFilename=E:\\Sites\\LocalDB\\jb-local-db.mdf;Initial Catalog=JB-Local-DB;Integrated Security=True";
 #else
 
-            _connString = "Data Source=JAMIE-NAS\\SQLEXPRESS;AttachDbFilename=E:\\Sites\\LocalDB\\jb-local-db.mdf;Initial Catalog=JB-Local-DB;Integrated Security=True";
+            _connString = "Data Source=.\\SQLEXPRESS;AttachDbFilename=E:\\Sites\\LocalDB\\jb-local-db.mdf;Initial Catalog=JB-Local-DB;Integrated Security=True";
 #endif
 
             var quote = new QuoteModel
@@ -79,6 +79,7 @@ namespace QuotesPage_Site.Controllers
             catch (Exception e)
             {
                 Console.Out.WriteLine(e.Message);
+                quote.QuoteText = e.Message;
             }
 
             return quote;
