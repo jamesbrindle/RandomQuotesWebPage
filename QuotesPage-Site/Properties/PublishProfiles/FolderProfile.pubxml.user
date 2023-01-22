@@ -6,8 +6,8 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>E:\Repositories\RandomQuotesWebPage\QuotesPage-Site\Publish</_PublishTargetUrl>
-    <History>False|2023-01-21T15:38:20.1007417Z;False|2023-01-21T15:37:55.2738284+00:00;True|2023-01-21T14:38:08.3690500+00:00;True|2023-01-21T14:32:07.6530228+00:00;True|2023-01-21T14:30:56.8968175+00:00;</History>
+    <_PublishTargetUrl>E:\Sites\RandomQuotes</_PublishTargetUrl>
+    <History>True|2023-01-22T00:17:18.7836978Z;False|2023-01-21T15:38:20.1007417+00:00;False|2023-01-21T15:37:55.2738284+00:00;True|2023-01-21T14:38:08.3690500+00:00;True|2023-01-21T14:32:07.6530228+00:00;True|2023-01-21T14:30:56.8968175+00:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
@@ -111,10 +111,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/21/2023 15:27:43</publishTime>
     </File>
     <File Include="bin/QuotesPage-Site.dll">
-      <publishTime>01/21/2023 16:32:14</publishTime>
+      <publishTime>01/22/2023 00:17:16</publishTime>
     </File>
     <File Include="bin/QuotesPage-Site.pdb">
-      <publishTime>01/21/2023 16:32:14</publishTime>
+      <publishTime>01/22/2023 00:17:16</publishTime>
     </File>
     <File Include="bin/roslyn/csc.exe">
       <publishTime>01/21/2023 15:27:42</publishTime>
@@ -189,7 +189,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>01/21/2023 15:27:40</publishTime>
+      <publishTime>01/22/2023 00:14:43</publishTime>
     </File>
     <File Include="favicon-16x16.png">
       <publishTime>01/21/2023 15:27:40</publishTime>
@@ -273,10 +273,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/21/2023 15:27:40</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>01/21/2023 15:27:40</publishTime>
+      <publishTime>01/22/2023 00:14:47</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>01/21/2023 15:27:40</publishTime>
+      <publishTime>01/22/2023 00:00:36</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>01/21/2023 15:27:40</publishTime>

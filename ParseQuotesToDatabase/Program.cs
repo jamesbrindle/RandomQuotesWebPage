@@ -15,7 +15,8 @@ namespace ParseQuotesToDatabase
             AppDomain.CurrentDomain.SetData("DataDirectory", appDataPath);
 
 #if DEBUG
-            _connString = "Data Source=(LocalDb)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\QuotesDB.mdf;Initial Catalog=PoolStatsDB;Integrated Security=True";
+            _connString = "Data Source=JAMIE-NAS\\SQLEXPRESS;AttachDbFilename=E:\\Sites\\LocalDB\\jb-local-db.mdf;Initial Catalog=JB-Local-DB;Integrated Security=True";
+            //_connString = "Data Source=(LocalDb)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\QuotesDB.mdf;Initial Catalog=PoolStatsDB;Integrated Security=True";
 #else
 
             _connString = "Data Source=JAMIE-NAS\\SQLEXPRESS;AttachDbFilename=E:\\Sites\\LocalDB\\jb-local-db.mdf;Initial Catalog=JB-Local-DB;Integrated Security=True";

@@ -3,6 +3,26 @@
     padding-bottom: 20px;
 }
 
+/* unvisited link */
+a:link {
+    color: cornflowerblue;
+}
+
+/* visited link */
+a:visited {
+    color: cornflowerblue;
+}
+
+/* mouse over link */
+a:hover {
+    color: royalblue;
+}
+
+/* selected link */
+a:active {
+    color: royalblue;
+}
+
 /* Set padding to keep content from hitting the edges */
 .body-content {
     padding-left: 0px;
@@ -22,16 +42,16 @@ select,
 textarea {
     max-width: 280px;
 }
-.centerFlex {
-  position:absolute;
-  top:50%;
-  left:50%;
-  margin-left: auto;
-  margin-right: -120px;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  font-size: 12pt;
-  text-align: center;
-}
 
+.centerFlex {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: auto;
+    margin-right: -120px;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    font-size: 13pt;
+    text-align: center;
+}

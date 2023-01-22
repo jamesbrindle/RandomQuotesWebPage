@@ -26,7 +26,8 @@ namespace QuotesPage_Site.Controllers
         {
 
 #if DEBUG
-            _connString = "Data Source=(localdb)\\SQLEXPRESS;AttachDbFilename=E:\\Sites\\LocalDB\\jb-local-db.mdf;Initial Catalog=JB-Local-DB;Integrated Security=True";
+            //_connString = "Data Source=(localdb)\\SQLEXPRESS;AttachDbFilename=E:\\Sites\\LocalDB\\jb-local-db.mdf;Initial Catalog=JB-Local-DB;Integrated Security=True";
+            _connString = "Data Source=.\\SQLEXPRESS;AttachDbFilename=E:\\Sites\\LocalDB\\jb-local-db.mdf;Initial Catalog=JB-Local-DB;Integrated Security=True";
 #else
 
             _connString = "Data Source=.\\SQLEXPRESS;AttachDbFilename=E:\\Sites\\LocalDB\\jb-local-db.mdf;Initial Catalog=JB-Local-DB;Integrated Security=True";
@@ -64,7 +65,10 @@ namespace QuotesPage_Site.Controllers
                             if (lastIndexOfHyphen != -1)
                             {
                                 string quotePart1 = rawQuote.Substring(0, lastIndexOfHyphen);
-                                string quotePart2 = "<br /><font style=\"font-style: italic\">" + rawQuote.Substring(lastIndexOfHyphen, rawQuote.Length - lastIndexOfHyphen) + "</font>";
+                                string quotePart2 = rawQuote.Substring(lastIndexOfHyphen, rawQuote.Length - lastIndexOfHyphen).Trim() == "-"
+                                    ? string.Empty:
+                                    "<br /><font style=\"font-style: italic\">" + rawQuote.Substring(lastIndexOfHyphen, rawQuote.Length - lastIndexOfHyphen) + "</font>";
+
 
                                 quote.QuoteText = quotePart1 + quotePart2;
                             }
